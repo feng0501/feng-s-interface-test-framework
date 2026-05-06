@@ -1,0 +1,35 @@
+# data/pet_data.yaml
+test_add_pets:
+  - case_name: "正常添加宠物_dog"
+    id: 101
+    name: "旺财"
+    photoUrls: ["http://example.com/dog.jpg"]
+    status: "available"
+  - case_name: "正常添加宠物_cat"
+    id: 102
+    name: "咪咪"
+    photoUrls: []
+    status: "pending"
+  - case_name: "名字为空字符串"
+    id: 103
+    name: ""
+    photoUrls: []
+    status: "sold"
+  - case_name: "正常添加宠物_dog"
+    id: 104
+    name: "妞妞"
+    photoUrls: [ ]
+    status: "available"
+
+put_update_cases:
+    - case_name: "更新宠物名称"
+      create_data:
+        id: 201
+        name: "虎蛋"
+        photoUrls: [ ]
+        status: "available"
+      update_data:
+        id: 201
+        name: "虎蛋"
+        photoUrls: [ ]
+        status: "sold"

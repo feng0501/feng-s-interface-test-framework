@@ -1,0 +1,32 @@
+2026-04-16 22:07:31,130 - INFO - GET /pet/1 响应状态码: 404
+2026-04-16 22:18:14,603 - INFO - GET /pet/1 响应状态码: 200
+2026-04-27 10:46:43,990 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 101, 'name': '旺财', 'photoUrls': ['http://example.com/dog.jpg'], 'status': 'available'}
+2026-04-27 10:46:46,198 - INFO - 正在测试: 正常添加宠物_cat, 数据: {'id': 102, 'name': '咪咪', 'photoUrls': [], 'status': 'pending'}
+2026-04-27 10:46:48,320 - INFO - 正在测试: 名字为空字符串, 数据: {'id': 103, 'name': '', 'photoUrls': [], 'status': 'sold'}
+2026-04-27 10:52:34,746 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 101, 'name': '旺财', 'photoUrls': ['http://example.com/dog.jpg'], 'status': 'available'}
+2026-04-27 10:52:34,752 - INFO - 正在测试: 正常添加宠物_cat, 数据: {'id': 102, 'name': '咪咪', 'photoUrls': [], 'status': 'pending'}
+2026-04-27 10:52:34,759 - INFO - 正在测试: 名字为空字符串, 数据: {'id': 103, 'name': '', 'photoUrls': [], 'status': 'sold'}
+2026-04-28 23:32:41,689 - INFO - GET /pet/1 响应状态码: 200
+2026-04-28 23:32:41,774 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 101, 'name': '旺财', 'photoUrls': ['http://example.com/dog.jpg'], 'status': 'available'}
+2026-04-28 23:32:41,806 - INFO - 正在测试: 正常添加宠物_cat, 数据: {'id': 102, 'name': '咪咪', 'photoUrls': [], 'status': 'pending'}
+2026-04-28 23:32:41,815 - INFO - 正在测试: 名字为空字符串, 数据: {'id': 103, 'name': '', 'photoUrls': [], 'status': 'sold'}
+2026-04-28 23:32:41,837 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 104, 'name': '妞妞', 'photoUrls': [], 'status': 'pending'}
+2026-04-28 23:43:37,724 - INFO - GET /pet/1 响应状态码: 200
+2026-04-28 23:43:37,773 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 101, 'name': '旺财', 'photoUrls': ['http://example.com/dog.jpg'], 'status': 'available'}
+2026-04-28 23:43:37,778 - INFO - 正在测试: 正常添加宠物_cat, 数据: {'id': 102, 'name': '咪咪', 'photoUrls': [], 'status': 'pending'}
+2026-04-28 23:43:37,782 - INFO - 正在测试: 名字为空字符串, 数据: {'id': 103, 'name': '', 'photoUrls': [], 'status': 'sold'}
+2026-04-28 23:43:37,804 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 104, 'name': '妞妞', 'photoUrls': [], 'status': 'available'}
+2026-04-29 15:58:20,033 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 101, 'name': '旺财', 'photoUrls': ['http://example.com/dog.jpg'], 'status': 'available'}
+2026-04-29 15:58:22,367 - INFO - 正在测试: 正常添加宠物_cat, 数据: {'id': 102, 'name': '咪咪', 'photoUrls': [], 'status': 'pending'}
+2026-04-29 15:58:24,704 - INFO - 正在测试: 名字为空字符串, 数据: {'id': 103, 'name': '', 'photoUrls': [], 'status': 'sold'}
+2026-04-29 15:58:27,053 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 104, 'name': '妞妞', 'photoUrls': [], 'status': 'available'}
+2026-04-29 15:58:45,845 - INFO - GET /pet/1 响应状态码: 200
+2026-04-29 15:58:45,914 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 101, 'name': '旺财', 'photoUrls': ['http://example.com/dog.jpg'], 'status': 'available'}
+2026-04-29 15:58:45,944 - INFO - 正在测试: 正常添加宠物_cat, 数据: {'id': 102, 'name': '咪咪', 'photoUrls': [], 'status': 'pending'}
+2026-04-29 15:58:45,951 - INFO - 正在测试: 名字为空字符串, 数据: {'id': 103, 'name': '', 'photoUrls': [], 'status': 'sold'}
+2026-04-29 15:58:45,975 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 104, 'name': '妞妞', 'photoUrls': [], 'status': 'available'}
+2026-04-29 23:36:51,697 - INFO - GET /pet/1 响应状态码: 200
+2026-04-29 23:36:51,776 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 101, 'name': '旺财', 'photoUrls': ['http://example.com/dog.jpg'], 'status': 'available'}
+2026-04-29 23:36:51,793 - INFO - 正在测试: 正常添加宠物_cat, 数据: {'id': 102, 'name': '咪咪', 'photoUrls': [], 'status': 'pending'}
+2026-04-29 23:36:51,825 - INFO - 正在测试: 名字为空字符串, 数据: {'id': 103, 'name': '', 'photoUrls': [], 'status': 'sold'}
+2026-04-29 23:36:51,854 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 104, 'name': '妞妞', 'photoUrls': [], 'status': 'available'}

@@ -1,0 +1,4 @@
+2026-04-28 23:30:24,373 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 101, 'name': '旺财', 'photoUrls': ['http://example.com/dog.jpg'], 'status': 'available'}
+2026-04-28 23:30:26,573 - INFO - 正在测试: 正常添加宠物_cat, 数据: {'id': 102, 'name': '咪咪', 'photoUrls': [], 'status': 'pending'}
+2026-04-28 23:30:28,722 - INFO - 正在测试: 名字为空字符串, 数据: {'id': 103, 'name': '', 'photoUrls': [], 'status': 'sold'}
+2026-04-28 23:30:30,855 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 104, 'name': '妞妞', 'photoUrls': [], 'status': 'pending'}

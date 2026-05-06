@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Allure reports
+reports/
+allure-results/
+allure-report/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db

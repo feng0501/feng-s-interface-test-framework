@@ -1,0 +1,1 @@
+[32mINFO    [0m api_test:test_pet.py:85 正在测试: 名字为空字符串, 数据: {'id': 103, 'name': '', 'photoUrls': [], 'status': 'sold'}
