@@ -1,0 +1,23 @@
+services:
+  mock-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    # 不需要单独指定网络，后面 tests 会共享它的网络
+
+  tests:
+    build:
+      context: .
+      dockerfile: Dockerfile.tests
+    depends_on:
+      - mock-api
+    environment:
+      - BASE_URL=http://localhost:5000   # 因为共享网络，所以用 localhost
+    volumes:
+      - .:/app
+      - ./reports:/app/reports
+    network_mode: "service:mock-api"    # 关键：共享 mock-api 的网络栈
+    # 不再需要 command 中等待 nc，因为共享网络后 localhost 立即可用
+    command: pytest testcases/test_pet.py --alluredir=/app/reports/allure_raw

@@ -1,6 +1,8 @@
 # common/api_client.py
 import requests
 from config.settings import BASE_URL, TIMEOUT
+import allure
+import json
 
 class ApiClient:
     def __init__(self):
@@ -10,8 +12,23 @@ class ApiClient:
 
     def request(self, method, endpoint, **kwargs):
         url = f"{self.base_url}{endpoint}"
-        kwargs.setdefault("timeout", TIMEOUT)
+        # 附加请求信息
+        allure.attach(f"{method} {url}\nParams: {kwargs.get('params')}\nBody: {kwargs.get('json')}",
+                      name=f"Request {method} {endpoint}",
+                      attachment_type=allure.attachment_type.TEXT)
+
         response = self.session.request(method, url, **kwargs)
+
+        # 附加响应信息
+        try:
+            response_body = response.json()
+            allure.attach(json.dumps(response_body, indent=2),
+                          name=f"Response {response.status_code}",
+                          attachment_type=allure.attachment_type.JSON)
+        except:
+            allure.attach(response.text,
+                          name=f"Response {response.status_code}",
+                          attachment_type=allure.attachment_type.TEXT)
         return response
 
     def get(self, endpoint, **kwargs):

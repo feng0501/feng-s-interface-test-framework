@@ -1,1 +1,0 @@
-[32mINFO    [0m api_test:test_pet.py:85 正在测试: 正常添加宠物_dog, 数据: {'id': 104, 'name': '妞妞', 'photoUrls': [], 'status': 'available'}

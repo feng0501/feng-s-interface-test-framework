@@ -30,3 +30,20 @@
 2026-04-29 23:36:51,793 - INFO - 正在测试: 正常添加宠物_cat, 数据: {'id': 102, 'name': '咪咪', 'photoUrls': [], 'status': 'pending'}
 2026-04-29 23:36:51,825 - INFO - 正在测试: 名字为空字符串, 数据: {'id': 103, 'name': '', 'photoUrls': [], 'status': 'sold'}
 2026-04-29 23:36:51,854 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 104, 'name': '妞妞', 'photoUrls': [], 'status': 'available'}
+2026-05-06 22:42:27,251 - INFO - 共获取到 100 个帖子
+2026-05-06 22:55:10,792 - INFO - GET /pet/1 响应状态码: 404
+2026-05-06 22:55:11,577 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 101, 'name': '旺财', 'photoUrls': ['http://example.com/dog.jpg'], 'status': 'available'}
+2026-05-06 22:55:11,816 - INFO - 正在测试: 正常添加宠物_cat, 数据: {'id': 102, 'name': '咪咪', 'photoUrls': [], 'status': 'pending'}
+2026-05-06 22:55:12,056 - INFO - 正在测试: 名字为空字符串, 数据: {'id': 103, 'name': '', 'photoUrls': [], 'status': 'sold'}
+2026-05-06 22:55:12,295 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 104, 'name': '妞妞', 'photoUrls': [], 'status': 'available'}
+2026-05-06 22:55:49,259 - INFO - GET /pet/1 响应状态码: 200
+2026-05-06 22:55:49,344 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 101, 'name': '旺财', 'photoUrls': ['http://example.com/dog.jpg'], 'status': 'available'}
+2026-05-06 22:55:49,351 - INFO - 正在测试: 正常添加宠物_cat, 数据: {'id': 102, 'name': '咪咪', 'photoUrls': [], 'status': 'pending'}
+2026-05-06 22:55:49,359 - INFO - 正在测试: 名字为空字符串, 数据: {'id': 103, 'name': '', 'photoUrls': [], 'status': 'sold'}
+2026-05-06 22:55:49,381 - INFO - 正在测试: 正常添加宠物_dog, 数据: {'id': 104, 'name': '妞妞', 'photoUrls': [], 'status': 'available'}
+2026-05-06 22:56:02,300 - INFO - 共获取到 100 个帖子
+2026-05-06 23:30:26,663 - INFO - GET /pet/1 响应状态码: 404
+2026-05-06 23:39:06,733 - INFO - GET /pet/1 响应状态码: 404
+2026-05-06 23:50:53,481 - INFO - GET /pet/1 响应状态码: 200
+2026-05-06 23:57:54,765 - INFO - GET /pet/1 响应状态码: 200
+2026-05-07 15:56:31,126 - INFO - GET /pet/1 响应状态码: 200
